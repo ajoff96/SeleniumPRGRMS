@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteHospital]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GroupTest(failed)">
+    <groups>
+      <run>
+        <include name="SmokeTesting"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.medcoTNG.Appoinment">
+        <methods>
+          <include name="Add_Appointment"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.medcoTNG.Appoinment -->
+    </classes>
+  </test> <!-- GroupTest(failed) -->
+</suite> <!-- Failed suite [SuiteHospital] -->
